@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Documento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="documentHeader">
+    <h1 class="display-4 mb-4 text-center" id="documentTitle">Documento sem título</h1>
+    <div>
+      <a href="index.html" class="btn">Voltar</a>
+      <button id="deleteDocument" class="btn btn-outline ml-1">Excluir documento</button>  
+    </div>
+  </nav>
+
+  <div class="container">
+    <textarea id="textEditor" class="textarea"></textarea>
+  </div>
+
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="document.js" type="module"></script>
+</body>
+
+</html>
